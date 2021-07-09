@@ -1,0 +1,6 @@
+SwitchNull2.java:33:9: compiler.err.not.exhaustive.statement
+SwitchNull2.java:36:9: compiler.err.not.exhaustive.statement
+SwitchNull2.java:45:9: compiler.err.unreachable.stmt
+- compiler.note.preview.filename: SwitchNull2.java, DEFAULT
+- compiler.note.preview.recompile
+3 errors

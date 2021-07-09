@@ -1772,6 +1772,7 @@ public class Attr extends JCTree.Visitor {
                         Type patternType = types.erasure(primaryType);
                         boolean isTotal = primary.unconditional() &&
                                           !patternType.isErroneous() &&
+                                          !seltype.hasTag(BOT) &&
                                           types.isSubtype(types.erasure(seltype), patternType);
                         if (isTotal) {
                             if (hasTotalPattern) {
